@@ -2,8 +2,6 @@
 
 A browser extension that blocks email tracking pixels in Gmail — covering Mailtrack and many other spy-pixel services.
 
-A [Marvellous Codeworks](https://marvellouscode.works) project.
-
 > **Origins**: This is a modernised continuation of [gioxx/block-mailtrack](https://github.com/gioxx/block-mailtrack), originally written to block Mailtrack.io tracking in Gmail. That repository has been archived; this is the active home of the project going forward.
 
 ---
@@ -65,4 +63,4 @@ Original concept: [ksoftlabs/block-mail-track](https://github.com/ksoftlabs/bloc
 
 ## License
 
-See [LICENSE.md](LICENSE.md).
+See [LICENSE](LICENSE).
