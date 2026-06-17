@@ -1,0 +1,272 @@
+[
+  {
+    "id": 1,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "regexFilter": "googleusercontent\\.com.+(?:mailtrack|mltrk|yesware|bananatag|sidekickopen|salesloft|outreach|mailfoogae|mixmax|boomerangapp|lavender\\.ai|apollo\\.io|lmltrck|gmass\\.co|reply\\.io|klenty|woodpecker\\.co|snov\\.io|persistiq|streak)",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 2,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t.mailtrack.io^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 3,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||mltrk.io^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 4,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||trk.yesware.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 5,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t.yesware.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 6,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t.sidekickopen.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 7,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t2.sidekickopen.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 8,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t3.sidekickopen.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 9,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t4.sidekickopen.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 10,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t5.sidekickopen.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 11,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||s.bananatag.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 12,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||d.bananatag.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 13,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||r.bananatag.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 14,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t.salesloft.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 15,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||click.salesloft.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 16,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t.outreach.io^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 17,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||email.mixmax.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 18,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||mailfoogae.appspot.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 19,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||track.apollo.io^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 20,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||open.apollo.io^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 21,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||lmltrck.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 22,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||trk.gmass.co^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 23,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||open.gmass.co^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 24,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||track.reply.io^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 25,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||mgf.boomerangapp.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 26,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t.lavender.ai^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 27,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||track.lavender.ai^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 28,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||tracking.clearbit.com^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 29,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||t.groove.co^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  },
+  {
+    "id": 30,
+    "priority": 2,
+    "action": { "type": "block" },
+    "condition": {
+      "urlFilter": "||close.com/t/^",
+      "resourceTypes": ["image", "ping", "other", "xmlhttprequest"]
+    }
+  }
+]

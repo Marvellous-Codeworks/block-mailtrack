@@ -1,0 +1,17 @@
+/*
+  Block Mailtrack – Marvellous Codeworks
+  Hides the Mailtrack signature injected into Gmail and shows a replacement indicator.
+*/
+
+div[id$="mt-signature"] tbody {
+  display: none;
+}
+
+div[id$="mt-signature"] table::after {
+  display: block;
+  content: "Mailtrack pixel blocked";
+  color: #888;
+  font-size: 11px;
+  font-variant: small-caps;
+  padding: 2px 0;
+}
